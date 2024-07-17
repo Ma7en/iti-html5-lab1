@@ -162,7 +162,12 @@ header .info h4 {
 .hero .me {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 50px;
+}
+
+.hero .me,
+.hero .about {
+    min-height: 80vh;
 }
 
 .hero .me h3,
@@ -249,6 +254,7 @@ header .info h4 {
     color: #000000;
     border-radius: 50%;
 }
+
 .hero .me .skills ul li:nth-child(1) span {
     border: 15px solid transparent;
     border-color: transparent var(--main-color) var(--main-color);
